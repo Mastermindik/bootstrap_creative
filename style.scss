@@ -1,0 +1,141 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.intro {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('./img/bg-masthead.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+
+    .container {
+        .header {
+            padding-top: 11rem;
+
+            hr {
+                height: 0.2rem;
+                width: 3.25rem;
+                margin: 1.5rem auto;
+            }
+
+            p {
+                font-size: 1.25rem;
+                color: #ffffff80;
+            }
+
+            button {
+                border-radius: 10rem;
+            }
+        }
+    }
+}
+
+.about {
+    .container {
+        padding: 8rem 0;
+
+        hr {
+            height: 0.2rem;
+            width: 3.25rem;
+            margin: 1.5rem auto;
+        }
+
+        p {
+            font-size: 1.25rem;
+            color: #ffffff80;
+        }
+
+        button {
+            border-radius: 10rem;
+        }
+    }
+}
+
+.services {
+    .container {
+        padding: 8rem 0;
+
+        hr {
+            height: 0.2rem;
+            width: 3.25rem;
+            margin: 1.5rem auto;
+        }
+
+        .service-cards {
+            margin-top: 4.5rem;
+
+            .service-card {
+                .icon {
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolio {
+    .portfolio-box {
+        img {
+            max-width: 100%;
+        }
+
+        .portfolio-hover {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(220, 53, 69, 0.9);
+            opacity: 0;
+            transition: all .3s ease-in-out;
+        }
+
+        &:hover {
+            .portfolio-hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.download {
+    background: #343a40;
+
+    .container {
+        padding: 8rem 0;
+
+        button {
+            border-radius: 10rem;
+        }
+    }
+}
+
+.contuct {
+    .container {
+        padding: 8rem 0;
+
+        hr {
+            height: 0.2rem;
+            width: 3.25rem;
+            margin: 1.5rem auto;
+        }
+
+        #Textarea {
+            min-height: 10rem;
+        }
+
+        button {
+            width: 100%;
+            border-radius: 10rem;
+        }
+
+        img {
+            width: 2.5rem;
+            opacity: .5;
+        }
+    }
+}
