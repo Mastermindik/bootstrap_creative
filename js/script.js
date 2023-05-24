@@ -30,6 +30,7 @@ window.addEventListener("DOMContentLoaded", () => {
       }
     })
   }
+  document.addEventListener("scroll", getColor);
 
   $('.navbar-toggler').click(() => {
     $('.navbar-collapse').toggleClass('show');
