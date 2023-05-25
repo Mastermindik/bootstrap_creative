@@ -31,11 +31,10 @@ window.addEventListener("DOMContentLoaded", () => {
     })
   }
   document.addEventListener("scroll", getColor);
-
-  $('.navbar-toggler').click(() => {
-    $('.navbar-collapse').toggleClass('show');
-  })
+  
   $('.nav-link').click(() => {
-    $('.navbar-collapse').removeClass('show');
+    $('#navbarNav').collapse('hide')
   });
+  
+  $('.navbar-toggler').collapse('toggle')
 })

@@ -39,9 +39,6 @@ body {
 .intro .navbar-shrink .navbar-brand:hover, .intro .navbar-shrink .nav-link:hover {
   color: #dc3545;
 }
-.intro .navbar-shrink .navbar-toggler .navbar-toggler-icon {
-  background: black;
-}
 
 .about .container {
   padding: 8rem 0;
